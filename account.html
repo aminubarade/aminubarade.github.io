@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewpoint" content="width=device-width, initial=scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Account Access</title>
+</head>
+<body>
+	<header class="header-wrapper">
+	<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+		<div class="col-md-6"><a href="index.html"><img class="title-logo" src="images/logo.png" alt="Logo"></a></div>
+		<div class="col-md-6 collapse navbar-collapse justify-content-end">
+			<ul class="nav navbar-nav navlist ml-auto">
+				<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="recipes.html"></span>Recipes</a></li>
+				<li class="nav-item"><a class="nav-link" href="account.html"><span class="glyphicon glyphicon-user"></span>My Account</a></li>
+				<!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li> -->
+			</ul>
+		</div>
+	</nav>
+	</header>
+
+<div class="container">
+	<hr>
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Account</h2>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-4">
+			<h2>Sign in</h2>
+			<button class="signin-btn btn btn-defaul btn-lg btn-group-justified">Click to sign in</button>
+			<form action="admin/profile.html" method="post" class="form-horizontal" id="inform">
+				<label for="username">Userame:</label>
+				<input type="text" placeholder="username" name="username" class="form-control" required="true">
+				<label for="password">Password:</label>
+				<input type="password" name="password" class="form-control" required="true"><br>
+				<input type="submit" class="btn btn-primary form-control" value="Signin">
+			</form>
+		</div>
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<h2>Sign Up</h2>
+			<form action="" method="post" class="form-horizontal">
+				<label for="name">Name:</label>
+				<input type="text" placeholder="name" name="name" class="form-control">
+				<label for="userame">Userame:</label>
+				<input type="text" placeholder="username" name="username" class="form-control">
+				<label for="password">Password:</label>
+				<input type="password" name="password" class="form-control">
+				<label for="cpassword">Confirm Password:</label>
+				<input type="password" name="cpassword" class="form-control"><br>
+				<input type="submit" class="btn btn-primary form-control" value="Signup">
+			</form>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.signin-btn').on('click', function(){
+		$('#inform').slideToggle();
+	});
+});
+</script>
+<br><br>
+<footer class="web-footer bg-inverse text-center">
+		<p>&copy; Copyright 2017,<a href="https://www.aminubarade.github.io/"> Aminu Barade.</a></p>
+</footer>
+</body>
+
+</html>

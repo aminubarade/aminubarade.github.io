@@ -1,0 +1,70 @@
+html {
+	width: auto;
+	height: 100%;
+}
+body{
+	font-family: macondo;
+	height: 100%;
+	width: auto;
+}
+#sidebar {
+		position:fixed;
+		max-width: 20%;
+}
+
+.title-logo{
+	margin-top: 15px;
+	margin-left: 10px;
+	height: 10%;
+	width: 20%;
+}
+
+.title-super{
+	font-size: 50px;
+	font-weight: 200;
+}
+.navlist{
+	/*margin-top: 25px*/;
+	/*margin-left: 350px;*/
+}
+.title{
+	margin-left: 35px;
+}
+#sidelist{
+	list-style: none;
+	margin-top: 20px;
+}
+.sidebtn{
+	display: block;
+	width: 250px;
+	padding: 14px 40px;
+	margin-bottom: 10px;
+} 
+.sidebtn:hover{
+	background-color: #333333;
+}
+.actionform{
+	width: 50%;
+	height: 100%;
+	background-color:  #cccccc;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.form-grou{
+	display: block;
+}
+.li-btn{
+	width: 150px;
+	margin: 15px;
+}
+.li-btn:hover{
+	background-color: #333333;
+}
+#wrapper{
+	display: flex;
+}
+.actionform{
+	margin-left: 300px;
+}
+#addrecipe{
+	display: none;
+}

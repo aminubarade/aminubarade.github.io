@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewpoint" content="width=device-width, initial=scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<title>Template</title>
+</head>
+<body>
+	<script>
+	$(function(){
+		$(".welcome-text").fadeOut(1000).fadeIn(1000).slideUp(1000).slideDown(1000);
+	});
+	</script>
+	<header class="header-wrapper">
+	<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+		<div class="col-md-6"><a href="index.html"><img class="title-logo" src="images/logo.png" alt="Logo"></a></div>
+		<div class="col-md-6 collapse navbar-collapse justify-content-end">
+			<ul class="nav navbar-nav navlist ml-auto">
+				<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="recipes.html"></span>Recipes</a></li>
+				<li class="nav-item"><a class="nav-link" href="account.html"><span class="glyphicon glyphicon-user"></span>My Account</a></li>
+				<!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li> -->
+			</ul>
+		</div>
+	</nav>
+	</header>
+	<section>
+	<div class="container">
+		<hr>
+
+		<hr>
+		<div class="col-md-12 home-body">
+				<!-- <img class="img-fluid" src="images/body.jpg" alt="image"/> -->
+				<h1 class="w-t">More recipes!!!</h1>
+				<h1 class="w-t welcome-text">Welcome to more recipes</h1>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-12">
+			<h1>Featured Recipes</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div   class="col-md-4">
+			<img id="box1" class="img-fluid" src="images/1.jpg" alt="recipe image">
+			<h1>Recipe 1</h1>
+			</div>
+			<div class="col-md-4">
+			<img id="box2"  class="img-fluid" src="images/3.jpg" alt="recipe image">
+			<h1>Recipe 2</h1>
+			</div>
+			<div  class="col-md-4">
+			<img id="box3" class="img-fluid" src="images/2.jpg" alt="recipe image">
+			<h1>Recipe 3</h1>
+			</div>
+		</div>
+	</div>
+</section>	
+<br>
+<footer class="web-footer bg-inverse text-center">
+	<p>&copy; Copyright 2017,<a href="https://www.aminubarade.github.io/"> Aminu Barade.</a></p>
+</footer>
+
+</body>
+</html>
