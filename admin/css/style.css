@@ -43,6 +43,12 @@ body{
 .sidebtn:hover{
 	background-color: #333333;
 }
+.web-footer{
+	width: 100%;
+	color:  #cccccc;
+	height: 50px;
+	/*display: ruby-base-container;*/
+}
 .actionform{
 	width: 50%;
 	height: 100%;

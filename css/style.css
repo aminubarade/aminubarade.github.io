@@ -42,8 +42,8 @@ body{
 	width: 100%;
 	bottom: 0;
 	color:  #cccccc;
+	height: 50px;
 	display: ruby-base-container;
-	position: absolute;
 }
 .signupform{
 	display: wrap;
