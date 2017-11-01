@@ -1,2 +1,2 @@
 # aminubarade.github.io
-gh page for more-recipes
+My page gh page
