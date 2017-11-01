@@ -13,7 +13,7 @@ body{
 	z-index: 100;
 }
 .title-logo{
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-left: 10px;
 	height: 10%;
 	width: 20%;
@@ -28,19 +28,29 @@ body{
 	/*margin-top: 25px*/;
 	/*margin-left: 350px;*/
 }
-.home-body{
-	height: 400px;
+.skillBox{
+	border-radius: 15px;
+}
+.img{
+	height: 100%;
 	width: 100%;
+}
+.home-body{
+	/*margin-left: 40px;*/
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	color: #cccccc;
-	background-image: url('../images/body.jpg');
+    background-image: url("images/body.png");
+    background-size: contain;
+	
 }
 .w-t{
 	font-weight: bold;
-	color: white;
+	margin-left: -20px;
+	color: black;
 }
 .web-footer{
 	width: 100%;
-	bottom: 0;
 	color:  #cccccc;
 	height: 50px;
 	display: ruby-base-container;

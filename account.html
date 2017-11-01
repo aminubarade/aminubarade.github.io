@@ -22,7 +22,7 @@
 		<div class="col-md-6 collapse navbar-collapse justify-content-end">
 			<ul class="nav navbar-nav navlist ml-auto">
 				<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="recipes.html"></span>Recipes</a></li>
+				<li class="nav-item"><a class="nav-link" href="page.html"></span>Page</a></li>
 				<li class="nav-item"><a class="nav-link" href="account.html"><span class="glyphicon glyphicon-user"></span>My Account</a></li>
 			</ul>
 		</div>
@@ -39,12 +39,10 @@
 	<div class="row">
 		<div class="col-md-4">
 			<h2>Sign in</h2>
-			<button class="signin-btn btn btn-defaul btn-lg btn-group-justified">Click to sign in</button>
-			<form action="admin/profile.html" method="post" class="form-horizontal" id="inform">
-				<label for="username">Userame:</label>
-				<input type="text" placeholder="username" name="username" class="form-control" required="true">
-				<label for="password">Password:</label>
-				<input type="password" name="password" class="form-control" required="true"><br>
+			<button class="signin-btn btn btn-defaul btn-lg btn-group-justified" style="margin-bottom: 25px">Click to sign in</button>
+			<form action="details.html" method="post" class="form-horizontal" id="inform">
+				<input type="text" name="username" placeholder="Username" class="form-control" required="true" style="margin-bottom: 15px">
+				<input type="password" name="password" placeholder="Password" class="form-control" required="true" style="margin-bottom: 15px"><br>
 				<input type="submit" class="btn btn-primary form-control" value="Signin">
 			</form>
 		</div>
@@ -52,14 +50,10 @@
 		<div class="col-md-4">
 			<h2>Sign Up</h2>
 			<form action="" method="post" class="form-horizontal">
-				<label for="name">Name:</label>
-				<input type="text" placeholder="name" name="name" class="form-control">
-				<label for="userame">Userame:</label>
-				<input type="text" placeholder="username" name="username" class="form-control">
-				<label for="password">Password:</label>
-				<input type="password" name="password" class="form-control">
-				<label for="cpassword">Confirm Password:</label>
-				<input type="password" name="cpassword" class="form-control"><br>
+				<input type="text" placeholder="Fullname" name="name" style="margin-bottom: 10px" class="form-control">
+				<input type="text" placeholder="Username" name="username" class="form-control" style="margin-bottom: 10px">
+				<input type="password" name="password" placeholder="Password" class="form-control" style="margin-bottom: 10px">
+				<input type="password" name="cpassword" placeholder="Confirm Password" class="form-control" style="margin-bottom: 10px"><br>
 				<input type="submit" class="btn btn-primary form-control" value="Signup">
 			</form>
 		</div>
@@ -73,9 +67,10 @@ $(document).ready(function(){
 	});
 });
 </script>
-	<footer class="web-footer bg-inverse text-center">
+	
+</body>
+<footer class="web-footer bg-inverse text-center" style="position: absolute; bottom: 0">
 		<span style="line-height: 50px; margin: auto;">&copy; Copyright 2017,<a href="https://www.aminubarade.github.io/"> Aminu Barade.</a></span>
 	</footer>
-</body>
 
 </html>
