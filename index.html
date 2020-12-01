@@ -1,82 +1,56 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-	<meta name="viewport" content="width=device-width, initial=scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<title>AminuBarade</title>
-</head>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link href="fontawesome/css/all.css" rel="stylesheet">
+		<title>Barade</title>
+	</head>
 
-<body>
-	<script>
-	$(function(){
-		$(".welcome-text").fadeOut(1000).fadeIn(1000);
-	});
-	</script>
+	<body>
+		<main class="main">
+			<section class="section-1">
+				<h1 class="p-4 head-personal-name">Aminu Barade</h1>
+				<div class="home-text-container p-4">
+					<p class="home-text">
+						<p>I'm a Computer Engineer and a Cybersecurity Enthusiast from Lagos, Nigeria.</p>
+						<p>I'm skilled in Web development and Cybersecurity.</p>
+						<p>I've written both technical(How-Tos) and resaerch articles on <a href="https://medium.com/@aminubarade" >medium.</a></p>
+						<p>I'm a member of <a href="http://iaeng.org" target="_blank">IAENG</a> and <a href="https://nsbe.org" >NSBE</a></p>
+						
+						<div class="mt-5 social">
+							<span class="social-a"><a href='https://twitter.com/aminubarade' alt='link' target="_blank">Twitter</a></span>
+							<span class="social-a"><a href='https://instagram.com/aminubarade' alt='link' target="_blank">Instagram</a></span>
+							<span class="social-a"><a href='https://github.com/aminubarade' alt='link' target="_blank">Github</a></span>
+							<span class="social-a"><a href='https://linkedin.com/in/aminubarade' alt='link' target="_blank">Linkedin</a></span>
+							<span class="social-a"><a href='https://medium.com/@aminubarade' alt='link' target="_blank">Medium</a></span>
+							<span class="social-a"><a href='https://hackerank.com/@aminubarade' alt='link' target="_blank">HackerRank</a></span>
+							<span class="social-a"><a href='https://hackerone.com/aminubarade' alt='link' target="_blank">HackerOne</a></span>
+						</div>
+						
+					</p>
+				</div>
+			</section>
 
-	<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-		<div class="col-md-6">
-			<a href="index.html">
-			<img class="title-logo" src="images/logo.png" alt="Logo">
-			</a>
-			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      		<span class="navbar-toggler-icon"></span>
-    		</button>
-		</div>
-		<div class="col-md-6 collapse navbar-collapse justify-content-end">
-			<ul class="nav navbar-nav navlist ml-auto">
-				<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="page.html"></span>Skills</a></li>
-				<li class="nav-item"><a class="nav-link" href="account.html"><span class="glyphicon glyphicon-user"></span>My Account</a></li>
-			</ul>
-		</div>
-	</nav>
-
-	<div class="container" style="margin-top: 20px">
-        <h1 class="w-t welcome-text">Welcome!</h1>
-        <div class="row">
-        	<div class="col-md-12">
-	            <div class="home-body">
-	            	<img src="images/body.jpg" alt="image" class="img img-fluid">
-	            </div>
-            </div>
-        </div>
-		<br>
-		<h1>Interests</h1>
-		<div class="row text-center">
-			<div   class="col-md-4">
-			<br>
-			<img id="box1" class="img-fluid" src="images/learning.jpg" alt="image">
-			<h2><a href="#">Learning</a></h2>
-			<p>iLearn iChallenge</p>
-			</div>
-			<div class="col-md-4">
-			<br>
-			<img id="box2"  class="img-fluid" src="images/hardware.jpg" alt="image">
-			<h2><a href="#">Hardware</a></h2>
-			<p>iFix iBuild</p>
-			</div>
-			<div  class="col-md-4">
-			<br>
-			<img id="box3" class="img-fluid" src="images/coding.jpg" alt="image">
-			<h2><a href="#">Coding</a></h2>
-			<p>iCode iBuild</p>
-			</div>
-		</div>
-    </div>
+			<section class="section-2">
+				<img src="images/15.jpg" alt="" class="img-resp">
+			</section>
+		</main>
 
 
-<footer style="margin-top:50px">
-	<div class="web-footer bg-inverse text-center">
-	<span style="line-height: 50px; margin: auto;">&copy; Copyright 2017,<a href="https://www.aminubarade.github.io/"> Aminu Barade.</a></span>
-	</div>
-</footer>
+		<button class="signin-btn btn btn-defaul btn-lg btn-group-justified" style="margin-bottom: 25px">Click to sign
+			in</button>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('.signin-btn').on('click', function () {
+					$('#inform').slideToggle();
+				});
+			});
+		</script>
 
-
-</body>
-
-<html>
+	</body>
+</html>

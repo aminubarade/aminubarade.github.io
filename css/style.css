@@ -1,84 +1,87 @@
 html {
-    position: relative;
-    min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
-body{
+
+body {
 	font-family: macondo;
 }
-.header-wrapper{
-	position: sticky;
+
+.main {
+	height: 100vh;
 	width: 100%;
-	top: 0;
-	bottom: 5;
-	z-index: 100;
-}
-.title-logo{
-	margin-top: 5px;
-	margin-left: 10px;
-	height: 10%;
-	width: 20%;
+	display: flex;
 }
 
-.title-super{
-	font-size: 50px;
-	font-weight: 200;
-}
-
-.navlist{
-	/*margin-top: 25px*/;
-	/*margin-left: 350px;*/
-}
-.skillBox{
-	border-radius: 15px;
-}
-.img{
+.section-1 {
+	background: #151515;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	color: aliceblue;
+	width: 100%;
 	height: 100%;
-	width: 100%;
-}
-.home-body{
-	/*margin-left: 40px;*/
-    height: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	color: #cccccc;
-    background-image: url("images/body.png");
-    background-size: contain;
-	
-}
-.w-t{
-	font-weight: bold;
-	margin-left: -20px;
-	color: black;
-}
-.web-footer{
-	width: 100%;
-	color:  #cccccc;
-	height: 50px;
-	display: ruby-base-container;
-}
-.signupform{
-	display: wrap;
-}
-.form-area{
-	border-radius: 10px;
-	background-color: #cccccc;
-}
-.rating > span:hover:before {
-   content: "\2605";
-   position: absolute;
-}
-#inform{
-	display: none;
-}
-#box1 {
-		-webkit-animation: rotation 2s  ease-out;
-		animation-iteration-count: 2;
+	position: fixed;
 }
 
-@-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(0deg);
-		}
+.section-2 {
+	z-index: -1;
+	margin-left: auto;
+	width: 50%;
+	height: 100%;
+}
+
+.home-text-container {
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+}
+
+.home-text {
+	font-weight: 100;
+	margin: 0;
+  position: absolute;
+	top: 50%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+}
+
+.head-personal-name {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 9vw;
+}
+
+a:focus, a:hover {
+	color: #014c8c;
+	text-decoration: none !important;
+}
+
+
+/* miscellaneous */
+.img-resp {
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+
+}
+
+.icon {
+	height: 15px;
+	width: 15px;
+}
+
+.social {
+	
+
+}
+
+.social-a {
+	margin-right: 0.6em;
+}
+
+.social a{
+	color: white !important;
+}
+.social a:hover {
+	color: grey !important;
 }
