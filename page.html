@@ -114,3 +114,16 @@
 	</footer>
 </body>
 </html>
+
+
+
+<button class="signin-btn btn btn-defaul btn-lg btn-group-justified" style="margin-bottom: 25px">Click to sign
+	in</button>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('.signin-btn').on('click', function () {
+			$('#inform').slideToggle();
+		});
+	});
+</script>
