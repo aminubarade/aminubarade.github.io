@@ -38,7 +38,7 @@ body {
 .home-text {
 	font-weight: 100;
 	margin: 0;
-  position: absolute;
+	position: absolute;
 	top: 50%;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 20px;
@@ -51,7 +51,8 @@ body {
 	font-size: 13.5vw;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
 	color: #014c8c;
 	text-decoration: none !important;
 }
@@ -70,18 +71,16 @@ a:focus, a:hover {
 	width: 15px;
 }
 
-.social {
-	
-
-}
+.social {}
 
 .social-a {
 	margin-right: 0.6em;
 }
 
-.social a{
+.social a {
 	color: white !important;
 }
+
 .social a:hover {
 	color: grey !important;
 }
